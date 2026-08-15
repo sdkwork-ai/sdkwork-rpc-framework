@@ -13,6 +13,6 @@ sdkwork-rpc-resilience.workspace = true
 sdkwork-rpc-client.workspace = true
 sdkwork-rpc-discovery.workspace = true
 sdkwork-rpc-server.workspace = true
-sdkwork-discovery-rpc = { path = "../../../sdkwork-discovery/crates/sdkwork-discovery-rpc" }
-sdkwork-discovery-core = { path = "../../../sdkwork-discovery/crates/sdkwork-discovery-core" }
-sdkwork-discovery-storage-memory = { path = "../../../sdkwork-discovery/crates/sdkwork-discovery-storage-memory" }
+sdkwork_discovery_rpc.workspace = true
+sdkwork_discovery_core.workspace = true
+sdkwork_discovery_storage_memory.workspace = true

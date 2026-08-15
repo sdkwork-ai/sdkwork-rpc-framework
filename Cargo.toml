@@ -15,6 +15,10 @@ version = "0.1.0"
 license = "AGPL-3.0-or-later"
 
 [workspace.dependencies]
+sdkwork_discovery_storage_memory = { path = "../sdkwork-discovery/crates/sdkwork-discovery-storage-memory", package = "sdkwork-discovery-storage-memory" }
+
+sdkwork_discovery_core = { path = "../sdkwork-discovery/crates/sdkwork-discovery-core", package = "sdkwork-discovery-core" }
+
 async-trait = "0.1"
 sdkwork-rpc-core = { path = "crates/sdkwork-rpc-core" }
 sdkwork-rpc-resilience = { path = "crates/sdkwork-rpc-resilience" }
