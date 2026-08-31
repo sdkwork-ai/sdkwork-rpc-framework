@@ -27,6 +27,7 @@ sdkwork-rpc-client = { path = "crates/sdkwork-rpc-client" }
 sdkwork-rpc-server = { path = "crates/sdkwork-rpc-server" }
 sdkwork-rpc-core-rust = { package = "sdkwork-rpc-core-rust", path = "../sdkwork-appbase/crates/sdkwork-rpc-core-rust" }
 sdkwork-discovery-rpc-proto = { path = "../sdkwork-discovery/crates/sdkwork-discovery-rpc-proto" }
+sdkwork-discovery-rpc = { path = "../sdkwork-discovery/crates/sdkwork-discovery-rpc" }
 sdkwork_utils_rust = { package = "sdkwork-utils-rust", path = "../sdkwork-utils/packages/sdkwork-utils-rust" }
 prost = "0.14"
 prost-types = "0.14"
