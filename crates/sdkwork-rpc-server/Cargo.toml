@@ -1,10 +1,14 @@
 [package]
+rust-version.workspace = true
 name = "sdkwork-rpc-server"
 version.workspace = true
 edition.workspace = true
 license.workspace = true
 description = "SDKWork RPC server lifecycle helpers."
 
+
+[lints]
+workspace = true
 [lib]
 name = "sdkwork_rpc_server"
 path = "src/lib.rs"

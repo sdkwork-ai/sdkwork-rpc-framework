@@ -1,9 +1,13 @@
 [package]
+rust-version.workspace = true
 name = "sdkwork-rpc-framework-architecture-tests"
 version.workspace = true
 edition.workspace = true
 publish = false
 
+
+[lints]
+workspace = true
 [dev-dependencies]
 sdkwork-rpc-core.workspace = true
 async-trait.workspace = true

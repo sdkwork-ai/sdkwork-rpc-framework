@@ -1,10 +1,14 @@
 [package]
+rust-version.workspace = true
 name = "sdkwork-rpc-client"
 version.workspace = true
 edition.workspace = true
 license.workspace = true
 description = "SDKWork RPC client resolver and invocation context."
 
+
+[lints]
+workspace = true
 [lib]
 name = "sdkwork_rpc_client"
 path = "src/lib.rs"

@@ -1,10 +1,14 @@
 [package]
+rust-version.workspace = true
 name = "sdkwork-rpc-discovery"
 version.workspace = true
 edition.workspace = true
 license.workspace = true
 description = "SDKWork discovery registration lifecycle for RPC data-plane servers."
 
+
+[lints]
+workspace = true
 [lib]
 name = "sdkwork_rpc_discovery"
 path = "src/lib.rs"
